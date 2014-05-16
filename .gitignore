@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+*.swo
+node_modules/
+service/logs/
