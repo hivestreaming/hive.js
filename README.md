@@ -2,7 +2,7 @@
 
 Hive.js is an extension to dash.js that enables distributed caching of video fragments
 using direct browser-to-browser communication over WebRTC. A public demo server 
-is accessible at http://hive-js.cloudapp.net/demo/.
+is accessible at http://hive-js.cloudapp.net/.
 
 # Running a local demo
 
@@ -22,4 +22,4 @@ is accessible at http://hive-js.cloudapp.net/demo/.
     - `cd service`
     - `gunicorn -w 1 -k flask_sockets.worker main:app`
 
-The demo page is now available at http://localhost:8000/demo/.
+The demo page is now available at http://localhost:8000/demo/index.html.
